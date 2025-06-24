@@ -1,0 +1,7 @@
+,Model,Best Score (CV),Test Accuracy,Best Params,Time (s)
+0,XGBClassifier,0.8103284958240305,0.7941345600920069,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}",3.5318665504455566
+1,GradientBoostingClassifier,0.8041445464318201,0.7918343875790684,"{'learning_rate': 0.1, 'n_estimators': 300}",9.221989393234253
+2,RandomForestClassifier,0.8048619035805837,0.78953421506613,"{'max_depth': 10, 'n_estimators': 200}",5.876925468444824
+3,LogisticRegression,0.795514553874142,0.7866589994249569,"{'C': 10.0, 'penalty': 'l1'}",0.5960497856140137
+4,DecisionTreeClassifier,0.7783996940378731,0.7596319723979299,{'max_depth': 10},0.31511688232421875
+5,KNeighborsClassifier,0.708371165136856,0.7055779183438758,{'n_neighbors': 7},0.4119734764099121
